@@ -1,3 +1,5 @@
+#Steps to copy files from another repo to ur repo
+
 git clone <others repository url> temp
 mv temp/* temp/.* . 2>/dev/null
 rm -rf temp .git
