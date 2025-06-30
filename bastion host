@@ -1,0 +1,2 @@
+#below command is to check whether the private ec2 server is created with userdata or not
+aws ec2 describe-instance-attribute --instance-id i-05b529a33a4806c5d --attribute userData --query "UserData.Value" --output text | base64 -d
